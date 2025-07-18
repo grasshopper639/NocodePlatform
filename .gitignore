@@ -1,0 +1,34 @@
+# Node.js
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Next.js / Build outputs
+.next
+.out
+dist
+build
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# Prisma
+prisma/dev.db
+prisma/migrations
+
+# Logs and caches
+*.log
+.DS_Store
+Thumbs.db
+.cache
+
+# Editor files
+.vscode
+.idea
